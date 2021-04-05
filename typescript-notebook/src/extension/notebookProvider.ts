@@ -92,7 +92,7 @@ export class NotebookKernelProvider implements vscode.NotebookKernelProvider {
 export class NotebookKernel implements vscode.NotebookKernel {
 	readonly id = 'typescript-kernel';
 	public readonly label = 'TypeScript Notebook Kernel';
-	readonly supportedLanguages = ['json'];
+	readonly supportedLanguages = ['typescript'];
 
 	private _executionOrder = 0;
 

@@ -64,7 +64,7 @@ class NotebookKernel {
     constructor() {
         this.id = 'typescript-kernel';
         this.label = 'TypeScript Notebook Kernel';
-        this.supportedLanguages = ['json'];
+        this.supportedLanguages = ['typescript'];
         this._executionOrder = 0;
     }
     async executeCellsRequest(document, ranges) {
